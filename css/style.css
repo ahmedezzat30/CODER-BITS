@@ -1,0 +1,586 @@
+body{
+    overflow: hidden
+}
+/*start nav*/
+
+h2{
+    
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.navbar{
+    
+    background-color: rgba(0,0,0,.6) !important;
+    z-index: 77;
+}
+
+.navbar .navbar-brand .logo{
+    
+    padding: 0px 10px;
+    width: 90px;
+    max-width: 90px;
+    height: 70px;
+    float: left;
+}
+
+.navbar .navbar-brand span{
+    
+    display: block;
+    margin: 20px auto;
+    float: left;
+    color: white !important;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    
+    color: white;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item .active{
+    
+    color:#ec3237 !important; 
+    border-bottom: 2px solid #ec3237;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    
+    color:  #ec3237 !important;
+}
+
+/*end nav***********************/
+
+/*strat header****************************/
+
+.header{
+    
+    position: relative;
+    height: 700px;
+    background-image: url(../image/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.header .temp{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(236, 51, 55, 0.7);
+}
+
+.header p{
+    
+    font-size: 27px;
+}
+
+.header h1{
+    
+    font-size: 60px;
+}
+
+.header .btn{
+    
+    transition: all 1s ease-in-out;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0;
+    border: 2px solid white !important;
+}
+
+.header .btn:hover{
+    
+    background-color: #ffffff;
+    color: #ec3237;
+    outline: 0;
+}
+
+.header .temp .bottom{
+    
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    color: white;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes icon{
+    
+    0%{
+        
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    }
+    
+    25%{
+        
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+        
+    }
+    
+    50%{
+        
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+        
+    }
+    
+    100%{
+        
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+        
+    }
+    
+    
+}
+/*end header**********************/
+
+
+
+/*start section of about_us **********************/
+
+.about_us p{
+    
+    color: #999999;
+}
+
+.about_us .social ul li a{
+    
+    color: #999999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    display: block;
+    padding-top: 8px;
+    text-decoration: none;
+    border:1px solid #999999;
+    transition: all 1s ease-in-out;
+}
+
+.about_us .social ul li a:hover{
+    
+    color: white;
+    background-color: #ec3237;
+    border-color: #ec3237;
+}
+
+ .progress_tittle{
+    
+    display: inline-block;
+    color: #999999;
+    margin: 7px 0;
+}
+
+.progress_percentatge{
+    
+    float: right;
+}
+
+
+.about_us .progress-bar{
+    
+    background-color: #ec3237;
+}
+
+.about_us .services , .my-work .portoflio , .porto .touch , .hire-me .message{
+    
+    color: white;
+    text-decoration: none;
+    background-color: #780609;
+    border-radius: 0;
+    border: 1px solid #780609;
+    transition: all 1s ease-in-out;
+}
+
+.about_us .services:hover{
+    
+    background-color: #ec3237;
+    border-color:  #ec3237;
+}
+
+
+/*end  section of about_us**********************/
+
+
+/*start  section of work**********************/
+
+.my-work {
+    
+    background-color:  #f5f5f5;
+}
+
+.my-work p{
+    
+    color: #999999;
+}
+
+.my-work .content{
+    
+    padding:15px;
+    transition: all 1s ease-in-out;
+    background-color: white;
+}
+
+.my-work .content .work-icon{
+    
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color:#999999;
+    color: #777777;
+    padding-top: 5px;
+    transition: all 1s ease-in-out;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.my-work .content:hover .work-icon{
+    
+    background-color: #ec3237;
+    color: white;
+}
+
+.my-work .content:hover h4{
+    
+    color: #ec3237;
+    transition: all 1s ease-in-out;
+}
+
+.my-work .portoflio:hover{
+    
+    background-color: #ec3237;
+    border-color:  #ec3237;
+}
+
+/*end  section of work**********************/
+
+/* start section of testimonials ************/
+
+.testi{
+    
+    background-image: url(../image/project-counter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testi .info{
+    
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px 0;
+    height: 200px;
+    color: #ec3237;
+}
+
+.testi .info span{
+    
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.testi .info p{
+    
+    font-weight: bold;
+}
+
+/* end section of testimonials ************/
+
+/* start section of portoflio ***************/
+
+.porto {
+    
+    background-color: #f5f5f5;
+}
+.porto h2{
+    
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.porto p{
+    
+    color: #999999;
+}
+.porto .links{
+    
+    overflow: hidden;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.porto ul{
+    
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.porto ul li a{
+    
+    text-decoration: none;
+    border: 2px solid  #dddddd ;
+    color: #444444 ;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+}
+
+.porto ul li .active{
+    
+    background-color: #ec3237;
+    color: white !important;
+}
+
+.porto ul li .active, .porto ul li a:hover{
+    
+    border: 2px solid #ec3237;
+    color: #df4f53;
+    
+}
+
+.porto .shuffel-images{
+    margin-top: 40px;
+}
+
+.shuffel-images  img{
+    
+    width: 100%;
+}
+
+.porto .shuffel-images .temp2 .caption{
+    
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    
+}
+
+.porto .shuffel-images .temp2 .caption a{
+    
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: -17px;
+    left: 45%;
+    transition: all 1s ease-in-out;
+    
+}
+
+.porto .shuffel-images .temp2 {
+    
+    transition: all 1s ease-in-out;
+}
+
+.porto .shuffel-images .temp2:hover a{
+    
+    background-color:  #ec3237;
+}
+
+.porto .touch:hover{
+    
+    background-color: #ec3237;
+    border-color:  #ec3237;
+}
+
+.porto .modal .fade .modal-dialog{
+    
+    width: 80% !important;
+}
+
+/* end section of portoflio ***************/
+
+/*Start of slider ************/
+
+.slider
+{
+    background-image: url(../image/testimonials/client-testimonial.jpg);
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+.slider .content .imge img{
+
+    border: 5px solid  #ec3237;
+}
+
+.slider .info{
+    
+    margin-top: 15px;
+}
+.slider .info h3
+{
+    color:  #ec3237;
+}
+
+
+/**/
+
+
+
+/* start hire me ***************/
+
+.hire-me p {
+    
+    color: #999999;
+    
+}
+
+.hire-me .adress{
+    
+    color: #999999;
+    
+}
+
+.hire-me .adress span{
+    
+    margin-left: 10px;
+}
+
+.hire-me .adress .mail{
+    
+    color: gray;
+    text-decoration: none;
+    transition:  all 1s ease-in-out;
+}
+
+.hire-me .adress .mail:hover{
+    
+    color: #ec3237
+}
+
+.hire-me .social ul li a{
+    
+    color: #999999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    display: block;
+    padding-top: 8px;
+    text-decoration: none;
+    border:1px solid #999999;
+    transition: all 1s ease-in-out;
+}
+
+.hire-me .social ul li a:hover{
+    
+    color: white;
+    background-color: #ec3237;
+    border-color: #ec3237;
+}
+
+.hire-me .message:hover{
+    
+    background-color: #ec3237;
+    border-color:  #ec3237;
+}
+
+.hire-me form input , .hire-me form textarea{
+    
+    border: 2px solid #999999;
+    
+}
+
+.hire-me form textarea {
+    
+    height: 150px;
+}
+
+/* end hire me**************/
+
+/* start footer ******************/
+
+.copyright{
+    
+    padding: 15px;
+    border-top: 1px solid grey;
+}
+
+.copyright a{
+    
+    text-decoration: none;
+    color: red;
+}
+
+/* end footer************/
+
+/*spinner*/
+.spinner{
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(190, 58, 58)
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*spinner*/
+
+/*scroll top*/
+.btnTop
+{
+    color: white;
+    position: fixed;
+    bottom: 20px ;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    z-index: 222;
+    display: none;
+
+
+}
